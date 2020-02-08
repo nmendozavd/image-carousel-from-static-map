@@ -6,6 +6,7 @@ import Image from "../style/ListImages.jsx";
 import Map from "./Map.jsx";
 
 const Wrapper = styled.div`
+  font-family: Libre Franklin;
   display: float;
   position: absolute;
   width: 146%; /* overflow: hidden; */
@@ -37,7 +38,7 @@ z-index: 1;
     left: 3%;
   button {
     height: 33px;
-    background:transparent
+    /* background:transparent */
     width: 33px;
     border-radius: 50%;
     cursor: pointer;

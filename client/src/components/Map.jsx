@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Container = styled.div`
   /* padding-top: 10px; */
   color: #fff;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 `;
 const Id1 = styled.div`
   position: absolute;
@@ -22,10 +22,10 @@ const Id1 = styled.div`
     left: 29%;
     top: -30%;
   }
-  :hover {
-    opacity: 1;
-  }
-`;
+  /* :hover {
+    opacity: 1; */
+  
+`
 const Id2 = styled.div`
   position: absolute;
   top: 78%;
